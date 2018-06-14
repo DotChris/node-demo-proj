@@ -1,0 +1,123 @@
+body{
+	/* background-image: url("/img/background.png"); */
+	
+	background: -webkit-linear-gradient(to bottom right, #191919, black );
+	background: -o-linear-gradient(to bottom right, #191919, black );
+	background: -moz-linear-gradient(to bottom right, #191919, black );
+	background: linear-gradient(to bottom right , #191919, black );
+	background-attachment: fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+	margin: 0px;
+	min-width:460px;
+	width: 100%;
+	height:100vh;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+body:focus{
+outline:none;
+}
+
+.banner{
+	height:64px;
+	background-color: rgb(12,12,12);
+	/* background-color: #2c9d6c; */
+	border: 1px solid rgb(12,12,12);
+	color:white;
+	/* text-align:center; */
+	position:relative;
+
+}
+.logo{
+	position:absolute;
+	/* text-align:left; */
+	color:white;
+	/* background-image:url("/img/logo.svg"); */
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	/* padding-top: 6px; */
+	top:0;
+	left:0;
+	height: 64px;
+	width: 150px;
+}
+
+.label{
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 160px;
+  left: 59px;
+  top: 36px;
+    transition: all .4s;
+  -webkit-transition: all .4s;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  
+}
+svg{
+cursor:default;
+border:0;
+}
+svg:focus{
+	outline:none;
+}
+svg > *:focus{
+	outline:none;
+}
+
+
+.bannertxt{
+	text-align:center;
+}
+
+.banbkr{
+	height: 5px;
+	/* background-color: #437dde; */
+	background-color: #3b3b3b;
+	/* border: 2px outset black; */
+	border-top: 2px solid darkgrey;
+	border-left: 2px solid darkgrey;
+	border-right: 2px solid #404040;
+	border-bottom: 2px solid #0d0d0d;
+}
+
+#menu{
+	position:absolute;
+	cursor:pointer;
+	top:30%;
+	left:95%;
+}
+
+#sideBar{
+	position:absolute;
+	background-color: #36004d;
+	width:250px;
+	height:100vh;
+	right:0;
+	//top:0;
+
+}
+
+.cWrapper{
+	/* position: relative; */
+	width: 90%;
+	//height: 100%;
+	margin-left: 5%;
+	margin-bottom:1%;
+	margin-top: 100px;
+	margin-right: 5%;
+	background-color: rgb(12,12,12);
+	/* border: 2px outset black; */
+	border-top: 2px solid darkgrey;
+	border-left: 2px solid darkgrey;
+	border-right: 2px solid #404040;
+	border-bottom: 2px solid #262626;
+	
+}
+
+.content{
+	margin: 20px;
+}
+
